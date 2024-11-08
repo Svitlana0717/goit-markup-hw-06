@@ -152,9 +152,6 @@ a {
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
-
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0 auto;
   }
 
@@ -238,7 +235,8 @@ a {
     margin-bottom: 8px;
   }
 
-  .section-service {
+
+  .service-section {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -264,7 +262,7 @@ a {
   }
 
  .container {
-  padding: 120 0;
+  padding: 120px 0;
  } 
 
   .section-team {
@@ -277,15 +275,14 @@ a {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-bottom: 72px;
   }
 
   .team-item {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); ;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
+
   .social-container {
     padding: 32px 0;
-
   }
 
   .section-service {
