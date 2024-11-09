@@ -1033,6 +1033,11 @@
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+   }
+
+
+   /*----Modal---*/
+
 
     .backround {
       position: fixed;
@@ -1265,13 +1270,8 @@
     .backround:not(.is-open) .modal {
       transform: translate(-50% -50%);
     }
-  
-    display: flex;
-    padding: 16px;
-   }
 
    .container-logo {
-    display: flex;
     margin-bottom: 96px;
     margin: 16px;
   }
@@ -1385,7 +1385,6 @@
     margin-bottom: 94px;
     padding: 16px;
     margin-top: 72px;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -1466,12 +1465,13 @@
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-left: 108px;
    }
 
    .container-footer {
     display: flex;
     text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 768px;
     padding: 0 15;
     margin: 0 auto;
@@ -1612,6 +1612,7 @@
    .container-footer {
      display: flex;
      align-items: baseline;
+     flex-wrap: nowrap;
      width: 1158px;
      padding: 0 15;
      margin: 0 auto;
