@@ -693,7 +693,6 @@
     display: flex;
     justify-content: center; 
     gap: 24px;
-    width: calc((100% - 24px)/2);
   }
 
   .social-item {
@@ -859,6 +858,27 @@
 .contacts-link:focus {
   color: #404bbf;
 }
+
+.some-tumba {
+  position: relative;
+  overflow: hidden;
+}
+
+.some-text {
+  position: absolute; 
+  width: 296px;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+  padding: 40px 32px; 
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%); 
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -914,6 +934,27 @@
   .container-taam {
     padding: 32px 0;
     text-align: center;
+    }
+
+    .some-tumba {
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .some-text {
+      position: absolute; 
+      width: 296px;
+      top: 0;
+      font-size: 16px;
+      line-height: 1.5; 
+      letter-spacing: 0.02em;
+      color: #F4F4FD;
+      padding: 40px 32px; 
+      background-color: #4d5ae5;
+      height: 100%;
+      width: 100%;
+      transform: translateY(100%); 
+      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
@@ -1459,6 +1500,7 @@
    }
 
    .section-footer {
+    max-width: 264px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1469,7 +1511,6 @@
 
    .container-footer {
     display: flex;
-    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 768px;
@@ -1477,9 +1518,6 @@
     margin: 0 auto;
   }
 
-  .container-logo {
-    margin-right: 108px;
-  }
 
   .social-text  {
     font-family: "Roboto", sans-serif;
@@ -1488,7 +1526,8 @@
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
-    margin: 16px;
+    text-align: left;
+    gap: 24px;
   }
 
   .footer-list {
@@ -1537,10 +1576,6 @@
     margin-bottom: 16px;
   }
 
-  .modal-fotter-btm {
-    margin-left: 80px;
-  }
-
   .text-footer {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -1549,9 +1584,8 @@
     letter-spacing: 0.02em;
     color: #fff;
     padding: 80px;
-    margin-left: 108px;
     display: flex;
-    padding: 16px;
+    text-align: left;
   }
 
   .imput-footer {
@@ -1568,6 +1602,7 @@
   .footer-form {
     display: flex;
     gap: 24px;
+    flex-direction: row;
   }
 
   .footer-lable {
